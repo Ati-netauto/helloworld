@@ -1,44 +1,44 @@
 # Title
-Hello-world application deployment using Terraform,AWS and NodeJs
+Hello-world application deployment using Terraform, AWS and NodeJs
 
 # Description
-Aim of this project is to create a simple hello-World application using Terraform ,AWS and NodeJs. 
+Aim of this project is to create a simple hello-World application using Terraform, AWS and NodeJs. 
 
-Following section describes how each element will be used in the successful creation of the application on AWS 
+Following section describes how each is element used for creating application on AWS 
 
 ## Terraform 
-Tearraform is an open source infrastructure as a code tool which will be used to create required infrastructure in AWS
+Terraform is an open-source infrastructure as a code tool which will be used to create required infrastructure in AWS
 
 ### AWS Infrastructure to be provisioned 
 
-      .VPC - Virtual private cloud is a logically separated network where AWS resources will launched
+      . VPC - Virtual private cloud is a logically separated network where AWS resources will be launched
 
-      .Internet Gateway - Enables AWS workloads like EC2 instance (or a server) to connect with the internet  
+      . Internet Gateway - Enables AWS workloads like EC2 instance (or a server) to connect with the internet  
 
-      .Public Subnet - Has a route to the internet gateway and connects AWS resources to the internet 
+      . Public Subnet - Has a route to the internet gateway and connects AWS resources to the internet 
 
-      .Custom route table - A non-default route table with a default route towards the internet gateway
+      . Custom route table - A non-default route table with a default route towards the internet gateway
 
-      .Route table association - Associates public subnet with custom route table enabling internet access
+      . Route table association - Associates public subnet with custom route table enabling internet access
 
-      .Security group- Acts like a virtual firewall controlling access to the EC2 instance in both directions
+      . Security group- Acts like a virtual firewall controlling access to the EC2 instance in both directions
                            
       .EC2 instance - A virtual server running on AWS infrastructure
 
-## Node.Js
- Node.js is open-sourece JavaScript runtime environment. It will used for creating Hello-World application
+## Node.js
+ Node.js is open-source JavaScript runtime environment. It will used for creating Hello-World application
       . 
 ## NPM
 Node Package Manager or NPM is a package manager for Node.js and maintains the libraries
  
-# How to deploy the application ?
+# How to deploy the application?
 
 ## Prerequisites
-Please ensure all prerequisites have been met before
+Please ensure all prerequisites have been met
 
 ## Git account 
 
-If you don't have a Git account you can create one 
+If you do not have a Git account, you can create one 
 
 https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2Fenterprise&source=header
 
@@ -73,12 +73,12 @@ $ terraform apply
 
 # Testing
 
-Once Terraform apply is completed successfully test the application by either using the public IP address of the EC2 instance or the hostname with correct port number.
-In the browser please type
+Once Terraform apply is completed application can be tested by either using the public IP address of the EC2 instance or the hostname with correct port number.
+In the browser, please type
 
 http://x.x.x.x:5000
 
-Text 'Hello world!' should be dispalye din the window.
+Text 'Hello world!' will be displayed in the window.
 
 # Troubleshooting
 ##If you encounter any issues please check if the user data section has installed Node.js and NPM successfully
