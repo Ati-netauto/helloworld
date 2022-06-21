@@ -31,9 +31,17 @@ Tearraform is an open source infrastructure as a code tool which will be used to
 ## NPM
 Node Package Manager or NPM is a package manager for Node.js and maintains the libraries
  
-# Installation
+# How to deploy the application ?
 
 ## Prerequisites
+Please ensure all prerequisites have been met before
+
+## Git account 
+
+If you don't have a Git account you can create one 
+
+https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2Fenterprise&source=header
+
 
 ### Terraform 
 Install Terraform and AWS CLI
@@ -46,8 +54,10 @@ https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 
 https://aws.amazon.com/premiumsupport/knowledge-center/create-and-activate-aws-account/
 
-### Clone Git to yoru local machine
+### Clone Git to your local machine
 
+#### Login to git
+####  
 
 
 Download helloworld node.js application from Git
