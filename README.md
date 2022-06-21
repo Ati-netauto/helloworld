@@ -89,7 +89,12 @@ $node -v
 
 $npm -v
 
-#### Check init logs
+#### Check the logs
+Please check cloud-init output log file at 
+
+/var/log/cloud-init-output.log
+
+
 
 
 
