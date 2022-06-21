@@ -62,9 +62,13 @@ https://aws.amazon.com/premiumsupport/knowledge-center/create-and-activate-aws-a
 ### Run Terraform commands
 
 $ mkdir ec2-tf-nodejs
-$ cd ec2-tf-nodejd
+
+$ cd ec2-tf-nodejs
+
 $ terraform init
+
 $ terraform plan
+
 $ terraform apply
 
 # Testing
