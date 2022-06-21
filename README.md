@@ -7,7 +7,7 @@ Aim of this project is to create a simple hello-World application using Terrafor
 Below section describes how each element will be used in the successful creation of the application on AWS 
 
 ## Terraform 
-Tearraform is an open source infrastructure as a code tool which will be used to create required infrastructure in AWS. IAC approach allows Tearraform to automate f infrastructure provisioning in AWS.
+Tearraform is an open source infrastructure as a code tool which will be used to create required infrastructure in AWS
 
 ### AWS Infrastructure to be provisioned 
 
@@ -29,19 +29,24 @@ Tearraform is an open source infrastructure as a code tool which will be used to
  Node.js is open-sourece JavaScript runtime environment. It will used for creating Hello-World application
       . 
 ## NPM
-Node Package Manager or NPM is a packkage manager for Node.js and maintains the librabries 
+Node Package Manager or NPM is a package manager for Node.js and maintains the libraries
  
+# Installation
 
-5. This code will create infrastructure in AWS usign Terraform and will also deploy a Hello-world node.js application on the EC2 instance 
+## Prerequisites
 
+### Terraform 
+Install Terraform and AWS CLI
 
-	
-	
-	
-	
-	
-	
+https://learn.hashicorp.com/tutorials/terraform/install-cli
 
+https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
+
+### AWS account with necessary rights
+
+https://aws.amazon.com/premiumsupport/knowledge-center/create-and-activate-aws-account/
+
+### Clone Git to yoru local machine
 
 
 
