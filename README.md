@@ -76,12 +76,12 @@ $ terraform apply
 Once Terraform apply is completed successfully test the application by either using the public IP address of the EC2 instance or the hostname with correct port number.
 In the browser please type
 
-x.x.x.x:5000
+http://x.x.x.x:5000
 
-Text 'Hello world' should be dispalye din the window.
+Text 'Hello world!' should be dispalye din the window.
 
 # Troubleshooting
-##If you encounter any issues please check if the user data section has implemented Node.js and NPM successfully
+##If you encounter any issues please check if the user data section has installed Node.js and NPM successfully
 
 #### ssh into the EC2 instance
 
