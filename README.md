@@ -68,6 +68,10 @@ From any machine access the application x.x.x.x:5000
 
 # How to use the project
 
-# 
+# Terraform commands
+
+ terraform init
+$ terraform plan
+$ terraform apply
 
 
