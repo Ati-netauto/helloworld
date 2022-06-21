@@ -1,31 +1,49 @@
-# helloworld
-Creating a Hello-world application using node.js
+# Title
+Hello-world application deployment using Terraform,AWS and NodeJs
 
 # Description
+Aim of this project is to create a simple hello-World application using Terraform ,AWS and NodeJs. 
 
-This code will create infrastructure in AWS usign Terraform and will also deploy a Hello-world node.js application on the Ec2 instance 
+Below section describes how each element will be used in the successful creation of the application on AWS 
 
-# AWS Infrastructure
+## Terraform 
+Tearraform is an open source infrastructure as a code tool which will be used to create required infrastructure in AWS. IAC approach allows Tearraform to automate f infrastructure provisioning in AWS.
 
-VPC - virtual private cloud
+### AWS Infrastructure to be provisioned 
 
-Internet Gateway - Provides internet access to the Ec2 instance
+      .VPC - Virtual private cloud is a logically separated network where AWS resources will launched
 
-IP Subnet - Ec2 instance will be created in this /24 subnet
+      .Internet Gateway - Enables AWS workloads like EC2 instance (or a server) to connect with the internet  
 
-Custom route table - Routes all traffic for internet towards internet gateway 
+      .Public Subnet - Has a route to the internet gateway and connects AWS resources to the internet 
 
-Route table association - customer route table and IP subnet
+      .Custom route table - A non-default route table with a default route towards the internet gateway
 
-Security group- 
-   Ingress Access - Allows ssh access for managing the EC2 instance
-                    Allows internet users to access the application on port 5000. 
-                    
-   Egress Access - Permits internet access to the EC2 instance 
+      .Route table association - Associates public subnet with custom route table enabling internet access
 
-EC2 instance - A new Ubuntu EC2 instance will be created in the region eu-west-2
+      .Security group- Acts like a virtual firewall controlling access to the EC2 instance in both directions
+                           
+      .EC2 instance - A virtual server running on AWS infrastructure
 
-Node.js and NPM will be installed using user data in TF
+## Node.Js
+ Node.js is open-sourece JavaScript runtime environment. It will used for creating Hello-World application
+      . 
+## NPM
+Node Package Manager or NPM is a packkage manager for Node.js and maintains the librabries 
+ 
+
+5. This code will create infrastructure in AWS usign Terraform and will also deploy a Hello-world node.js application on the EC2 instance 
+
+
+	
+	
+	
+	
+	
+	
+
+
+
 
 Download helloworld node.js application from Git
 
@@ -33,6 +51,8 @@ Run the server
 
 From any machine access the application x.x.x.x:5000
 
+# How to use the project
 
+# 
 
 
