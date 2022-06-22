@@ -111,7 +111,9 @@ http://x.x.x.x:5000
 Text 'Hello world!' will be displayed in the window.
 
 # Troubleshooting
-##If you encounter any issues please check if the user data section has installed Node.js and NPM successfully
+If you don't see the text please wait for few seconds before trying again.
+
+If it is still not working please check if Terraform has installed Node.js and NPM successfully
 
 #### ssh into the EC2 instance 
 
