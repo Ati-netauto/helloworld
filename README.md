@@ -81,7 +81,7 @@ $ git clone https://github.com/Ati-netauto/helloworld
  
 ### variables.tf
 
-Update this file as per desired configuration or keep the defautl values
+Update this file as per desired configuration or keep the default values
  
  
 ### Run Terraform commands
