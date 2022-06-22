@@ -18,8 +18,6 @@ variable "subnet_cidr"{
 }
 
 
-}
-
 variable "eu-west2-ubuntu-ami"{
     type=string
     description="Regional Ubuntu AMI "
