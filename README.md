@@ -78,7 +78,12 @@ $ git clone https://github.com/Ati-netauto/helloworld
  ===> verify cloning was successful 
  
  $ cd helloworld
+ 
+### variables.tf
 
+Update this file as per desired configuration or keep the defautl values
+ 
+ 
 ### Run Terraform commands
 
 $ terraform init
@@ -92,6 +97,7 @@ $ terraform plan
 $ terraform apply
 
 ===> Verify and enter 'yes' to create the infrastructure
+===> Note instance IP address (x.x.x.x) from the Outputs.This is the public IP address of the EC2 instance 
 
 # Testing
 
