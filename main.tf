@@ -128,8 +128,8 @@ resource "aws_instance" "web-server" {
                 #!/bin/bash
                 sudo apt update
                 sudo apt install -y nodejs npm
-                sudo wget https://github.com/Ati-netauto/helloworld/raw/main/helloword2.js
-                node helloword2.js
+                sudo wget https://github.com/Ati-netauto/helloworld/raw/main/helloworld-app.js
+                node helloworld-app.js
                 EOF
 }
 
