@@ -29,7 +29,7 @@ Terraform is an open-source infrastructure as a code tool which will be used to 
  Node.js is open-source JavaScript runtime environment. It will used for creating Hello-World application
       . 
 ## NPM
-Node Package Manager or NPM is a package manager for Node.js and maintains the libraries
+Node Package Manager or NPM is a package manager for Node.js 
 
 # High level overview of the code
  This code 
