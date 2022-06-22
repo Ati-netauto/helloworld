@@ -35,10 +35,10 @@ Node Package Manager or NPM is a package manager for Node.js and maintains the l
  This code 
  1. Creates AWS infrastructure
  2. Creates Ubuntu EC2 instance
- 3. Updates Ec2 instance
+ 3. Updates EC2 instance
  4. Installs Node.js and NPM on EC2 instance
- 5. Downloads helloworld-app.js application from Git
- 6. Starts Node.js application
+ 5. Downloads helloworld-app.js application from Git repository https://github.com/Ati-netauto/NodeJS-app/raw/main/helloworld-app.js
+ 6. Starts Node.js application on TCP port 5000
 
  
 # How to deploy the application?
@@ -107,7 +107,7 @@ Text 'Hello world!' will be displayed in the window.
 # Troubleshooting
 ##If you encounter any issues please check if the user data section has installed Node.js and NPM successfully
 
-#### ssh into the EC2 instance
+#### ssh into the EC2 instance 
 
 $node -v
 
