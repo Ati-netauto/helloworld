@@ -29,3 +29,9 @@ variable "instance_type"{
     description=" AMI instance type "
     default="t2.micro"
 }
+
+variable "internet_default_route"{
+    type=string
+    description="Default route for internet access"
+    default="0.0.0.0/0"
+}
