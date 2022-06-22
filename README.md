@@ -4,7 +4,7 @@ Hello-world application deployment using Terraform, AWS and NodeJs
 # Description
 Aim of this project is to create a simple hello-World application using Terraform, AWS and NodeJs. 
 
-Following section describes how each is element used for creating application on AWS 
+Following section describes how each is element used for creating application in AWS  
 
 ## Terraform 
 Terraform is an open-source infrastructure as a code tool which will be used to create required infrastructure in AWS
@@ -113,7 +113,7 @@ Text 'Hello world!' will be displayed in the window.
 # Troubleshooting
 If you don't see the text please wait for few seconds before trying again.
 
-If it is still not working please check if Terraform has installed Node.js and NPM successfully
+If it is still not working please check if Terraform has installed Node.js and NPM successfully on the EC2 instance
 
 #### ssh into the EC2 instance 
 
