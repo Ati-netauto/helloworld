@@ -59,11 +59,17 @@ https://aws.amazon.com/premiumsupport/knowledge-center/create-and-activate-aws-a
  $ git clone https://github.com/Ati-netauto/helloworld
 
 
-### Run Terraform commands
+### Create local directory and navigate to this directoty
 
 $ mkdir ec2-tf-nodejs
 
 $ cd ec2-tf-nodejs
+
+### Clone Git to your local machine
+
+$ git clone https://github.com/Ati-netauto/helloworld
+
+### Run Terraform commands
 
 $ terraform init
 
@@ -73,8 +79,10 @@ $ terraform apply
 
 # Testing
 
-Once Terraform apply is completed application can be tested by either using the public IP address of the EC2 instance or the hostname with correct port number.
-In the browser, please type
+Once Terraform apply is completed 
+  . Verify infrastructure is created and C2 instance public Ip address
+  . Application can be tested by either using the public IP address of the EC2 instance or the hostname with correct port number.
+  . In the browser, please type
 
 http://x.x.x.x:5000
 
@@ -89,7 +97,7 @@ $node -v
 
 $npm -v
 
-#### Check the logs
+#### For further troubleshooting please check the logs and take appropriate action
 Please check cloud-init output log file at 
 
 /var/log/cloud-init-output.log
