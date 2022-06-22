@@ -30,6 +30,16 @@ Terraform is an open-source infrastructure as a code tool which will be used to 
       . 
 ## NPM
 Node Package Manager or NPM is a package manager for Node.js and maintains the libraries
+
+# High level overview of the code
+ This code 
+ 1. Creates AWS infrastructure
+ 2. Creates Ubuntu EC2 instance
+ 3. Updates Ec2 instance
+ 4. Installs Node.js and NPM on EC2 instance
+ 5. Downloads helloworld-app.js application from Git
+ 6. Starts Node.js application
+
  
 # How to deploy the application?
 
@@ -54,33 +64,39 @@ https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 
 https://aws.amazon.com/premiumsupport/knowledge-center/create-and-activate-aws-account/
 
-### Clone Git to your local machine
 
- $ git clone https://github.com/Ati-netauto/helloworld
-
-
-### Create local directory and navigate to this directoty
+### Create local projects directory and navigate to this directoty
 
 $ mkdir ec2-tf-nodejs
 
 $ cd ec2-tf-nodejs
 
-### Clone Git to your local machine
+### Clone Git repository to your local machine
 
 $ git clone https://github.com/Ati-netauto/helloworld
+  
+ ===> verify cloning was successful 
+ 
+ $ cd helloworld
 
 ### Run Terraform commands
 
 $ terraform init
 
+===> You should see "Terraform has been successfully initialized!" message
+
 $ terraform plan
 
+===> Verify the output 
+
 $ terraform apply
+
+===> Verify and enter 'yes' to create the infrastructure
 
 # Testing
 
 Once Terraform apply is completed 
-  . Verify infrastructure is created and C2 instance public Ip address
+  . Verify infrastructure is created and EC2 instance public IP address
   . Application can be tested by either using the public IP address of the EC2 instance or the hostname with correct port number.
   . In the browser, please type
 
