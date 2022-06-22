@@ -17,10 +17,7 @@ variable "subnet_cidr"{
     default="10.0.172.0/24"
 }
 
-variable "internet_default_route"{
-    type=string
-    description="Default route for internet access"
-    default="0.0.0.0/0"
+
 }
 
 variable "eu-west2-ubuntu-ami"{
